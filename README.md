@@ -9,21 +9,28 @@ Simply speaking, sohot is a local area network timely communication tool, becaus
 ### How to start
 
 * setp 1
-
+<table><tr><td bgcolor=#000000>
+<font color=#00FF00 size=6 face=“黑体”>
+```
 $ 1.start_celery_queue.sh
-
+```
+</font>
+</td></tr></table>
 * step 2
-
+```
 $ 2.start_echoserver.sh
-
+```
 * step 3
-
+```
 $ 3.start_client_console.sh
-
+```
 ### How to stop
 
 * step 1
+```
 $ stop_1_celery_queue.sh
-
+```
 * step 2
+```
 $ stop_2_sohot.sh
+```
